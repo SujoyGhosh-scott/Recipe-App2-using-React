@@ -80,7 +80,8 @@ h1 {
 }
 
 img {
-  border-radius: 2%;
+  border-radius: 4%;
+  padding: 20px;
   width: 200px;
 }
 
@@ -92,4 +93,10 @@ img {
   padding: 5px;
   color: white;
   align-items: center;
+}
+
+@media screen and (max-width: 560px) {
+  .recipe {
+    flex-direction: column;
+  }
 }
