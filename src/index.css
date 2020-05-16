@@ -95,7 +95,7 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .recipe {
     flex-direction: column;
   }
